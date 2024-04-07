@@ -1,26 +1,18 @@
 //import './App.css';
-import reactbootsrap from 'react-bootstrap';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './MyApp.css';
 import Accordion from 'react-bootstrap/Accordion';
-import { useState } from 'react';
 
 
 function App() {
-
-  const [accordionOpened, setAccordionOpened] = useState(false);
-
-  const handleAccordionSelect = (eventKey) => {
-    setAccordionOpened(eventKey !== null);
-  };
   return (
     <div className="App">
 
-      <nav className="navbar navbar-expand-md navbar-light" style={{ backgroundColor: '#6A5ACD' }}>
+      <nav className="navbar navbar-expand-md navbar-light" style={{ backgroundColor: '#6B3CC9' }}>
             <div className="container-fluid">
               {/* Left side */}
-              <a className="navbar-brand" href="#" style={{ color: '#FFFFFF' }}>AT Digital</a>
+              <a className="navbar-brand" href="#" style={{ color: '#FFFFFF' }}>AT DIGITAL</a>
 
               {/* Right side */}
               <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -81,27 +73,27 @@ function App() {
         </div>
 
 
-        <div class="container">
-          <div class="main-container">
-          <h2 id="faq-topic" class="text-purple">Frequently Asked Questions</h2>
+        <div class="container" style={{ width: '70%' }}>
+          <div class="main-containerfaq">
+            <h2 id="faq-topic" class="text-faq">Frequently Asked Questions</h2>
 
             <Accordion defaultActiveKey="0">
               <Accordion.Item eventKey="0">
-                <Accordion.Header>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</Accordion.Header>
+                <Accordion.Header class="text-head">Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</Accordion.Header>
                 <Accordion.Body>
-                Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.
+                  Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
-                <Accordion.Header>Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</Accordion.Header>
+                <Accordion.Header class="text-head">Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</Accordion.Header>
                 <Accordion.Body>
-                Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.
+                  Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</Accordion.Header>
+                <Accordion.Header className="text-head">Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</Accordion.Header>
                 <Accordion.Body>
-                Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.
+                  Lorem ipsum dolor sit amet consectetur. Faucibus commodo suscipit id ipsum. Elementum ultrices nulla faucibus odio est sed aliquam. Sapien massa morbi risus sagittis tortor integer.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -109,34 +101,40 @@ function App() {
           </div>
         </div>
 
-
-
-
-
-
-
-
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col" style={{ border: '1px solid red'}}>
-            NavBar
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h5>AT DIGITAL</h5>
+                <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
+              </div>
+              <div class="col-md-3">
+                <h5>Our Technologies</h5>
+                <p>ReactJS</p>
+                <p>Gatsby</p>
+                <p>NextJS</p>
+                <p>NodeJS</p>
+              </div>
+              <div class="col-md-3">
+                <h5>Our Services</h5>
+                <p>Social Media Marketing</p>
+                <p>Web & Mobile App Development</p>
+                <p>Data & Analytics</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="col-xxl" style={{ border: '1px solid red'}}>
-            Column
+          <hr></hr>
+          <div class="row">
+            <div class="col text-end">
+              <h6>Privacy and Policy |</h6>
+            </div>
+            <div class="col">
+              <h6>Terms and Conditions</h6>
+            </div>
           </div>
-          <div className="col-lg" style={{ border: '1px solid red'}}>
-            Column
-          </div>
-          <div className="col-md" style={{ border: '1px solid red'}}>
-            Column
-          </div>
-          <div className="col" style={{ border: '1px solid red'}}>
-            Column
-          </div>   
-        </div>
-      </div>
+        </footer>
+
+
 
 
 

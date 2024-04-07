@@ -41,13 +41,13 @@
   .imageNtext {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center; 
     width: 90%;
   }
   
   .imageNtext img {
-    width: 40%; /* Adjust width of the image */
-    margin-right: 40px; /* Adjust margin as needed */
+    width: 40%; 
+    margin-right: 40px; 
     margin-left: 10%;
     
   }
@@ -56,7 +56,7 @@
 
   .text-content {
     margin-top: 50px;
-    flex: 1; /* Allow text content to take remaining space */
+    flex: 1; 
   }
   
   .text-content h3 {
@@ -66,14 +66,14 @@
   }
   
   .text-content p {
-    margin-bottom: 10px; /* Add some spacing below the paragraph */
+    margin-bottom: 10px; 
     font-weight: 400;
     margin-bottom: 20px;
   }
   
   .text-content button {
-    background-color: #F28D35; /* Example button color */
-    color: #ffffff; /* Example text color */
+    background-color: #F28D35; 
+    color: #ffffff; 
     border: none;
     padding: 10px 20px;
     font-size: 14px;
@@ -86,13 +86,13 @@
   .imageNtext2 {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the items horizontally */
+    justify-content: center; 
     width: 90%;
   }
   
   .imageNtext2 img {
-    width: 40%; /* Adjust width of the image */
-    margin-right: 40px; /* Adjust margin as needed */
+    width: 40%; 
+    margin-right: 40px; 
     margin-left: 1%;
     
   }
@@ -104,20 +104,20 @@
   }
   
   .text-content2 h3 {
-    margin-top: 0; /* Remove default margin for the heading */
-    color: blueviolet;
+    margin-top: 0; 
+    color: #6B3CC9;
     margin-bottom: 25px;
   }
   
   .text-content2 p {
-    margin-bottom: 10px; /* Add some spacing below the paragraph */
+    margin-bottom: 10px;
     font-weight: 400;
     margin-bottom: 20px;
   }
   
   .text-content2 button {
-    background-color: #F28D35; /* Example button color */
-    color: #ffffff; /* Example text color */
+    background-color: #F28D35; 
+    color: #ffffff; 
     border: none;
     padding: 10px 20px;
     font-size: 14px;
@@ -125,6 +125,49 @@
     border-radius: 4px;
   }
 
+  /* acording */
+
+  .text-head {
+    color: blue; 
+  }
+  
+.text-faq{
+    text-align: center;
+    color: #6B3CC9;
+    margin-bottom: 50px;
+}
+
+.accordion-item {
+    color: #6F6C90;
+}
+
+.main-containerfaq{
+    margin-bottom: 90px;
+}
+  /*footer*/
+  .footer {
+    background-color: #6B3CC9;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .footer h5 {
+    font-size: 1.2rem;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+  }
+
+  .col-md-4{
+    margin-right: 220px;
+  }
+
+.footer hr {
+    border: 2px solid white; 
+    width: 45%;
+    margin: 15px auto; 
+  }
   
   
   
