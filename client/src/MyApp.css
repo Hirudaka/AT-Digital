@@ -1,0 +1,130 @@
+.hero {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0; /* Position from the bottom */
+    left: 0; /* Position from the left */
+    width: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  
+  .green-container {
+    margin-left: 10%;
+    background: linear-gradient(to right, #4DCA79, #1CBDDD);
+    padding: 20px;
+  }
+  
+  .green-container h2 {
+    color: white;
+    text-align: left;
+  }
+  
+  .green-container button {
+    align-self: flex-start;
+    background-color: #F28D35;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+/* below this is the computer */
+
+
+  .imageNtext {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
+    width: 90%;
+  }
+  
+  .imageNtext img {
+    width: 40%; /* Adjust width of the image */
+    margin-right: 40px; /* Adjust margin as needed */
+    margin-left: 10%;
+    
+  }
+
+
+
+  .text-content {
+    margin-top: 50px;
+    flex: 1; /* Allow text content to take remaining space */
+  }
+  
+  .text-content h3 {
+    margin-top: 0; /* Remove default margin for the heading */
+    color: blueviolet;   
+    margin-bottom: 25px;
+  }
+  
+  .text-content p {
+    margin-bottom: 10px; /* Add some spacing below the paragraph */
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .text-content button {
+    background-color: #F28D35; /* Example button color */
+    color: #ffffff; /* Example text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  /*second search one*/
+
+  .imageNtext2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the items horizontally */
+    width: 90%;
+  }
+  
+  .imageNtext2 img {
+    width: 40%; /* Adjust width of the image */
+    margin-right: 40px; /* Adjust margin as needed */
+    margin-left: 1%;
+    
+  }
+
+  .text-content2 {
+    margin-left: 15%;
+    margin-top: 50px;
+    flex: 1; /* Allow text content to take remaining space */
+  }
+  
+  .text-content2 h3 {
+    margin-top: 0; /* Remove default margin for the heading */
+    color: blueviolet;
+    margin-bottom: 25px;
+  }
+  
+  .text-content2 p {
+    margin-bottom: 10px; /* Add some spacing below the paragraph */
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .text-content2 button {
+    background-color: #F28D35; /* Example button color */
+    color: #ffffff; /* Example text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  
+  
+  
